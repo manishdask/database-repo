@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('./db'); // Connect DB
+const mongoose = require('mongoose'); // Connect DB
 const app = express();
 const PORT = 3000;
 
