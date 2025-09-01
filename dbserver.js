@@ -22,7 +22,7 @@ res.send ("user saved!");
 
 
 // GET user by name
-app.get('/users/:name', async (req, res) => {
+app.get('/users', async (req, res) => {
   
   const user = await User.findOne({ name: "Manish" });
 
